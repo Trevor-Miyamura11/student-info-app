@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/student-info-app/", // Use your repo name here
   plugins: [
     vue(),
     vueDevTools(),
